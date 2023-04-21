@@ -1,4 +1,4 @@
-print('此模块由Ma制作,QQ:1304428142')
+print('此模块由Ma制作')
 class PID_1:
     def __init__(self, dt, max, min, Kp, Kd, Ki):
         self.dt = dt  # 循环时长
