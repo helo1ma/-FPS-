@@ -1,8 +1,6 @@
 """
-卡尔曼滤波算法，此模块由Ma制作，QQ ： 2444270231
+卡尔曼滤波算法，此模块由改装
 """
-print('卡尔曼滤波算法已加载，由模块Ma制作，QQ ： 2444270231')
-
 from pykalman import KalmanFilter
 
 
