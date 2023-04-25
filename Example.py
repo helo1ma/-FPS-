@@ -1,6 +1,7 @@
 mouse_offset_ratio = (2.3, 1)# 鼠标偏移量可以自己设置
 
 # PID用法
+# 注意，此处PID也可以直接传入x进行控制，两种都可以
 p_y = PID_m.PID_1(0.1, 0.01, -0.01, 0.4, 0.07, 1)
 p_x = PID_m.PID_1(0.1, 0.01, -0.01, 0.8, 0.07, 1)
 x_pid = p_x.apex_pid_x(mouse_offset_ratio[0], rifle_x)
